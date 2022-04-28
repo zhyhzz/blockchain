@@ -3,10 +3,11 @@
 pragma solidity ^0.8.10;
 
 /**
-*   Getter functions can be declared view or pure
+*   
+*	Getter functions can be declared view or pure
 *   view function declares that no state will be changed
 *   pure function declared that no state variable will be changed or read
-*/
+*/  
 contract ViewAndPure {
     uint public x = 1;
 
